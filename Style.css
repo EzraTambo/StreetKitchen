@@ -1,0 +1,83 @@
+body{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-align: center;
+}
+.container{
+    width: 80%;
+    background-color: rgb(64, 173, 64);
+    margin:auto; 
+}
+h1.title{
+    text-align: left!important;
+    text-transform: uppercase;
+    color: ivory;
+    font-size: 45px;
+    padding: 10px;
+
+}
+h1.title:hover{
+    text-decoration: overline;
+    color: rgb(154, 165, 154);
+    transition: ease-in-out .6ms;
+
+}
+.Top-Menu{
+    background-color: rgb(144, 192, 238);
+    overflow: hidden;
+}
+.Top-Menu ul li{
+    list-style-type: none;
+    float: left;
+    border-right: 2px solid rgb(161, 196, 196);
+    padding: 5px  10px;
+
+}
+.Top-Menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(48, 168, 78);
+    font-weight: 800;
+    font-size: 24px;
+}
+.Top-Menu ul li :hover {
+    background-color: rgb(128, 180, 140);
+    text-decoration: underline;
+    color: green;
+
+}
+.Top-Menu ul li:hover a{
+    text-decoration: underline;
+    color:rgb(133, 98, 98);
+}
+.Main-img{
+    width: 1050px;
+    height: 400px;
+    
+}
+.Image{
+
+    width: 700px;
+    height: 400px;
+    
+
+}
+.Credits{
+
+    background-color: brown;
+    padding: 20px;
+    color: darkkhaki;
+    font-size: 25px;
+}
+.Credits:hover{
+    transform: rotate(15deg);
+    transition: ease-in-out 10ms;
+}
+
+.Image:hover{
+    opacity: .5;
+    transform: scale(1.005);
+    transition: ease-in 2s;
+}
+}
